@@ -1,5 +1,5 @@
 descriptorVersion: v4
-image: lcorsettientando/entando-qe-bundle-01:0.0.1-SNAPSHOT
+image: lcorsettientando/entando-qe-bundle-01:NOT_EXISTING
 dbms: postgresql
 healthCheckPath: "/management/health"
 roles:
