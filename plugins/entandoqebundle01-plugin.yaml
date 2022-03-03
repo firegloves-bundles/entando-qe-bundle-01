@@ -11,5 +11,5 @@ environmentVariables:
     - name: ENV_2_NAME
       valueFrom:
         secretKeyRef:
-          name: invalid-a7718ec9-entandoqebundle01-bundle-env-2-secret
+          name: invalid-27782c8f-entandoqebundle01-bundle-env-2-secret
           key: env-2secret-key
