@@ -1,6 +1,6 @@
 descriptorVersion: v4
 image: lcorsettientando/entando-qe-bundle-01:0.0.1-SNAPSHOT
-dbms: mysql
+dbms: embedded
 healthCheckPath: "/management/health"
 roles:
   - "entandoQeBundle01-admin"
