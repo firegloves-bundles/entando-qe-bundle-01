@@ -1,14 +1,14 @@
 descriptorVersion: v4
 image: lcorsettientando/entando-qe-bundle-01:0.0.1-SNAPSHOT
-dbms: postgresql
+dbms: mysql
 healthCheckPath: "/management/health"
 roles:
   - "entandoQeBundle01-admin"
   - "conference-admin"
-environmentVariables:
-    - name: ENV_1_NAME
-      value: env1value
-    - name: ENV_2_NAME
-      secretKeyRef:
-        name: 27782c8f-entandoqebundle01-bundle-env-2-secret
-        key: env-2secret-key
+#environmentVariables:
+#    - name: ENV_1_NAME
+#      value: env1value
+#    - name: ENV_2_NAME
+#      secretKeyRef:
+#        name: 27782c8f-entandoqebundle01-bundle-env-2-secret
+#        key: env-2secret-key
