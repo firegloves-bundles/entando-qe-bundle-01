@@ -1,10 +1,11 @@
 descriptorVersion: v4
 image: lcorsettientando/entando-qe-bundle-01:0.0.1-SNAPSHOT
-dbms: embedded
+dbms: mysql
 healthCheckPath: "/management/health"
 roles:
   - "entandoQeBundle01-admin"
   - "conference-admin"
+deploymentBaseName: "very-very-very-very-very-very-very-very-very-very-very-loooooooooooooooooooooong-dep-base-name"
 #environmentVariables:
 #    - name: ENV_1_NAME
 #      value: env1value
