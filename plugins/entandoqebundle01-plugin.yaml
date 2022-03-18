@@ -1,6 +1,6 @@
 descriptorVersion: v4
 image: lcorsettientando/entando-qe-bundle-01:2.0.0
-dbms: mysql
+dbms: postgresql
 healthCheckPath: "/management/health"
 roles:
   - "entandoQeBundle01-admin"
