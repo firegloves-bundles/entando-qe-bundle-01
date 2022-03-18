@@ -5,7 +5,6 @@ healthCheckPath: "/management/health"
 roles:
   - "entandoQeBundle01-admin"
   - "conference-admin"
-deploymentBaseName: "very-very-very-very-very-very-very-very-very-very-very-loooooooooooooooooooooong-dep-base-name"
 #environmentVariables:
 #    - name: ENV_1_NAME
 #      value: env1value
