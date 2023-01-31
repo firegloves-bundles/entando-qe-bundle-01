@@ -5,10 +5,10 @@ healthCheckPath: "/management/health"
 roles:
   - "entandoQeBundle01-admin"
   - "conference-admin"
-#environmentVariables:
-#    - name: ENV_1_NAME
-#      value: env1value
-#    - name: ENV_2_NAME
-#      secretKeyRef:
-#        name: 27782c8f-entandoqebundle01-bundle-env-2-secret
-#        key: env-2secret-key
+environmentVariables:
+    - name: ENV_1_NAME
+      value: env1value
+    - name: ENV_2_NAME
+      secretKeyRef:
+        name: 27782c8f-bundle-env-2-secret
+        key: env-2secret-key
